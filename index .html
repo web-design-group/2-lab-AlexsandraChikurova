@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1: Формула 1 - Фильм 2025</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="normalize (2).css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .inline-style {
+            background: linear-gradient(45deg, #ff0000, #000000);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent; 
+            font-weight: bold;
+        }
+        
+        .about-section {
+            background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+        }
+        
+        .movie-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .plot-container {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        .plot-container h3, .movie-details h3 {
+            color: #ff0000;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .plot-container p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+        
+        .movie-details {
+            flex: 1;
+            min-width: 250px;
+            background: rgba(255, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #ff0000;
+        }
+        
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        
+        .detail-item {
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .detail-item:last-child {
+            border-bottom: none;
+        }
+        
+        .detail-item strong {
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>F1: THE MOVIE</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О фильме</a></li>
+                <li><a href="#cast">Актеры</a></li>
+                <li><a href="drivers.html">Гонщики</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="main-title">F1: ФОРМУЛА 1</h1>
+            <p class="hero-subtitle">Фильм 2025 года</p>
+            <p class="hero-tagline">Скорость. Адреналин. Победа.</p>
+
+            <a href="#about" class="cta-button" style="text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);">Узнать больше</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">О Фильме</h2>
+
+            <div class="float-demo-container">
+                <h3 class="float-demo-title">Создатели фильма</h3>
+                
+                <img src="foto\chel.png" alt="Джозеф Косински" class="director-image">
+                <p><strong>Джозеф Косински</strong> - режиссер фильма "F1: Формула 1". Известный голливудский режиссер, специализирующийся на масштабных проектах с впечатляющей визуальной составляющей.</p>
+                <p>Косински начал свою карьеру как режиссер музыкальных клипов и рекламных роликов, после чего перешел к полнометражному кино. Его дебютом стал научно-фантастический фильм "Трон: Наследие" (2010), который получил признание за свои визуальные эффекты и дизайн.</p>
+                <p>Среди других известных работ Косински - фильм "Обливион" (2013) с Томом Крузом в главной роли и боевик "Лучший стрелок: Мэверик" (2022), который стал одним из самых кассовых фильмов в истории.</p>
+                <p>Для съемок "F1: Формула 1" Косински использовал свой опыт создания зрелищных сцен и работы с экшн-последовательностями, чтобы передать всю динамику и adrenaline гоночного спорта.</p>
+                
+                <img src="foto\f1-poster.jpg" alt="Постер фильма F1" class="poster-image">
+                <p><strong>Постер фильма</strong> демонстрирует главных героев в их гоночных комбинезонах на фоне трека Формулы-1. Дизайн постера выполнен в классических цветах гоночного спорта - красном, черном и серебристом.</p>
+                <p>На постере изображены Брэд Питт в роли Сонни Хейса и Дэмсон Идрис в роли Джошуа Пирса. Оба актера прошли интенсивную подготовку к своим ролям, включая тренировки на настоящих гоночных трассах.</p>
+                <p>Фильм снимался при полной поддержке Формулы-1, с доступом к реальным трассам, командам и технологиям. Это позволило создателям фильма достичь беспрецедентного уровня реализма в изображении мира автогонок.</p>
+                <p>Ожидается, что "F1: Формула 1" станет одним из самых зрелищных спортивных фильмов всех времен, сочетающим в себе захватывающие гоночные сцены и глубокую человеческую драму.</p>
+
+            </div>
+
+            <div class="movie-info">
+                <div class="plot-container">
+                    <h3>Сюжет</h3>
+                    <p>Сонни Хейс (Брэд Питт) — бывший гонщик Формулы-1, который считался одним из самых перспективных пилотов 1990-х годов, пока авария на трассе почти не положила конец его карьере. Тридцать лет спустя он живет как наемный гонщик, когда к нему обращается его бывший товарищ по команде Рубен Сервантес (Хавьер Бардем), владелец борющейся команды Формулы-1, которая находится на грани краха.</p>
+
+                    <p>Рубен убеждает Сонни вернуться в Формулу-1 для последнего шанса спасти команду и доказать, что он лучший в мире. Ему предстоит ездить вместе с Джошуа Пирсом (Дэмсон Идрис), горячим новичком команды, намеренным задать собственный темп. Но когда заревут двигатели, прошлое Сонни догонит его, и он обнаружит, что в Формуле-1 твой товарищ по команде — твой самый яростный конкурент, а дорога к искуплению — это не то, по чему можно ехать в одиночку.</p>
+                    
+                    <p>Фильм снят при полном сотрудничестве с Формулой-1, с настоящими гоночными командами и на реальных трассах в рамках гоночного уик-энда. Это придает фильму беспрецедентную аутентичность и зрелищность.</p>
+                </div>
+
+                <div class="movie-details">
+                    <h3>Детали Фильма</h3>
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <strong>Режиссер:</strong> Джозеф Косински
+                        </div>
+                        <div class="detail-item">
+                            <strong>Продюсер:</strong> Джерри Брукхаймер
+                        </div>
+                        <div class="detail-item">
+                            <strong>Сценарий:</strong> Эрен Крюгер
+                        </div>
+                        <div class="detail-item">
+                            <strong>Дата выхода:</strong> 27 июня 2025
+                        </div>
+                        <div class="detail-item">
+                            <strong>Жанр:</strong> Спортивная драма
+                        </div>
+                        <div class="detail-item">
+                            <strong>Бюджет:</strong> $200-300 млн
+                        </div>
+                        <div class="detail-item">
+                            <strong>Сборы:</strong> $623 млн
+                        </div>
+                        <div class="detail-item">
+                            <strong>Премьера в РФ:</strong> 26 июня 2025
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cast" class="cast-section">
+        <div class="container">
+            <h2 class="section-title inline-style">Главные Актеры</h2>
+
+            <div class="cast-grid">
+                <div class="cast-card" data-character="Сонни Хейс">
+                    <div class="cast-image">
+                        <img src="foto/soni.png" alt="Брэд Питт">
+                    </div>
+                    <div class="cast-info">
+                        <h3>Брэд Питт</h3>
+                        <p class="character-name">как Сонни Хейс</p>
+                        <p class="character-description">Опытный американский гонщик, который возвращается в Формулу-1 после 30-летнего отсутствия, чтобы спасти команду своего бывшего товарища.</p>
+                    </div>
+                </div>
+
+                <div class="cast-card" data-character="Джошуа Пирс">
+                    <div class="cast-image">
+                        <img src="foto/n.jpg" alt="Дэмсон Идрис">
+                    </div>
+                    <div class="cast-info">
+                        <h3>Дэмсон Идрис</h3>
+                        <p class="character-name">как Джошуа Пирс</p>
+                        <p class="character-description">Талантливый британский новичок, горячий гонщик команды APXGP, который стремится произвести впечатление на мир Ф1.</p>
+                    </div>
+                </div>
+
+                <div class="cast-card" data-character="Кейт МакКенна">
+                    <div class="cast-image">
+                        <img src="foto/kerri.png" alt="Кери Кондон">
+                    </div>
+                    <div class="cast-info">
+                        <h3>Керри Кондон</h3>
+                        <p class="character-name">как Кейт МакКенna</p>
+                        <p class="character-description">Технический директор команды APXGP, блестящий инженер, которая становится романтическим интересом Сонни.</p>
+                    </div>
+                </div>
+
+                <div class="cast-card" data-character="Рубен Серванте스">
+                    <div class="cast-image">
+                        <img src="foto/kor.jpg" alt="Хавьер Бардем">
+                    </div>
+                    <div class="cast-info">
+                        <h3>Хавьер Бардем</h3>
+                        <p class="character-name">как Рубен Сервантес</p>
+                        <p class="character-description">Владелец команды APXGP и бывший товарищ Сонни по команде, который убеждает его вернуться в гонки.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trailer-section">
+        <div class="container">
+            <h2 class="section-title">Трейлер фильма</h2>
+            <div class="trailer-container">
+                <div class="video-placeholder">
+                    <p>Здесь должен быть трейлер фильма</p>
+                    <div class="play-button">▶</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>F1: THE MOVIE</h3>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Контакты</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 F1: The Movie. Все права защищены.</p>
+                <p>Apple Original Films • Warner Bros. Pictures</p>
+
+                <p style="color: #ff0000; font-weight: bold; text-transform: uppercase; margin-top: 10px;">Скорость без границ</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
